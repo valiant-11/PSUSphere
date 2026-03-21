@@ -25,9 +25,9 @@
 			<nav class="navbar navbar-header navbar-expand-lg">
 				<div class="container-fluid">
 					
-					<form class="navbar-left navbar-form nav-search mr-md-3" action="">
+					<form class="navbar-left navbar-form nav-search mr-md-3" action="{% url 'organization-list' %}">
 						<div class="input-group">
-							<input type="text" placeholder="Search ..." class="form-control">
+							<input type="text" placeholder="Search ..." class="form-control" name="q" />
 							<div class="input-group-append">
 								<span class="input-group-text">
 									<i class="la la-search search-icon"></i>
@@ -200,7 +200,7 @@
 						<li class="nav-item active">
 							<a href="typography.html">
 								<i class="la la-font"></i>
-								<p>Typography</p>
+								<p>Program</p>
 								<span class="badge badge-danger">25</span>
 							</a>
 						</li>
